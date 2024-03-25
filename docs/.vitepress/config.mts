@@ -5,7 +5,7 @@ export default defineConfig({
   cleanUrls: true,
   title: "一介白衣的博客",
   description: "everything will be fine",
-  // base: "./",
+  base: "/vitepress-blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
