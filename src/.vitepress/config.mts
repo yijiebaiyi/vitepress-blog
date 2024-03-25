@@ -2,15 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  vite: {
-    build: {
-      rollupOptions: {
-        output: {
-          minifyInternalExports: false,
-        },
-      },
-    },
-  },
+  cleanUrls: true,
   title: "一介白衣的博客",
   description: "everything will be fine",
   base: "./",
