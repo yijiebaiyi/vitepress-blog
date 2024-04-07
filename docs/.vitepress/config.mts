@@ -26,30 +26,6 @@ export default defineConfig({
         ],
       },
       {
-        text: "Golang面试题",
-        items: [
-          { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
-        ],
-      },
-      {
-        text: "前端面试题",
-        items: [
-          { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
-        ],
-      },
-      {
-        text: "Nodejs面试题",
-        items: [
-          { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
-        ],
-      },
-      {
-        text: "中间件面试题",
-        items: [
-          { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
-        ],
-      },
-      {
         text: "Elasticsearch",
         items: [
           { text: "从开始到入门搜索引擎", link: "/build_Elasticsearch" },
