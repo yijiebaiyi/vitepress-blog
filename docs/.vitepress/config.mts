@@ -12,7 +12,6 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "about", link: "/about" },
     ],
-
     sidebar: [
       {
         text: "技术日志",
@@ -48,6 +47,12 @@ export default defineConfig({
         text: "中间件面试题",
         items: [
           { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
+        ],
+      },
+      {
+        text: "Elasticsearch",
+        items: [
+          { text: "从开始到入门搜索引擎", link: "/build_Elasticsearch" },
         ],
       },
       {
