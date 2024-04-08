@@ -26,6 +26,12 @@ export default defineConfig({
         ],
       },
       {
+        text: "前端面试题",
+        items: [
+          { text: "Vue双向绑定的原理", link: "/web/vue-two-ways-binding" },
+        ],
+      },
+      {
         text: "Elasticsearch",
         items: [
           { text: "从开始到入门搜索引擎", link: "/build_Elasticsearch" },
