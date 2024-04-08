@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "一介白衣的博客"
+  name: "一介白衣ing"
   text: ""
   tagline: everything is nothing
   actions:
     - theme: brand
       text: 技术
-      link: /build-your-php-framework
+      link: /log/build-your-php-framework
     - theme: alt
       text: 生活
       link: /about

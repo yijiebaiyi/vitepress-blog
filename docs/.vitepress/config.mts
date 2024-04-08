@@ -16,13 +16,13 @@ export default defineConfig({
       {
         text: "技术日志",
         items: [
-          { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
+          { text: "如何从0到1实现一个php框架", link: "/log/build-your-php-framework" },
         ],
       },
       {
         text: "PHP面试题",
         items: [
-          { text: "从0到1实现一个php框架", link: "/build-your-php-framework" },
+          { text: "echo、print、print_r、var_dump 的区别", link: "/php/print-different" },
         ],
       },
       {
