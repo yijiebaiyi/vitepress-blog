@@ -9,16 +9,14 @@ hero:
   actions:
     - theme: brand
       text: 技术
-      link: /log/build-your-php-framework
+      link: /php/build-your-php-framework
     - theme: alt
-      text: 生活
+      text: 其他
       link: /about
 
 features:
-  - title: chicken soup A
-    details: Believe in yourself even if everyone denies you
-  - title: chicken soup B
-    details: 做一些有意义的事，读书、健身、看山看海
-  - title: chicken soup C
-    details: 光阴似箭，日月如梭。珍惜当下
+  - title: 钱塘江上潮信来，今日方知我是我
+    details: The tidal surge arrives on the Qiantang River, Today, at last, I know, I am myself.
+  - title: 醉后不知天在水，满船清梦压星河
+    details: In drunkenness, I lose sight of whether the sky is above or the water below; the boat is filled with dreams as heavy as the starry river
 ---

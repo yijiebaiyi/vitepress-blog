@@ -4,4 +4,8 @@ outline: deep
 
 # 关于
 
-这里是芸芸众生的一员，随便写写关于技术，关于生活的东西。
+随便写写。
+
+有问题请在github发布issues: https://github.com/yijiebaiyi/vitepress-blog
+
+也可以在掘金找到我: https://juejin.cn/user/4416058258381213

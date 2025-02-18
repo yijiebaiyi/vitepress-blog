@@ -1,7 +1,0 @@
-# 开始学会使用Elasticsearch
-
-## 一则小故事
-
-许多年前，一个叫**Shay Banon**的待业工程师跟随他的新婚妻子来到伦敦，他的妻子想在伦敦学习做一名厨师。而他在伦敦寻找工作的期间，接触到了Lucene的早期版本，他想为自己的妻子开发一个方便搜索菜谱的应用。但是他觉得Lucene有很多做的不好地方，于是他Shay Banon打算自己开发一个搜索引擎。
-Elasticsearch发布的第一个版本是在2010年的二月份，从那之后，Elasticsearch便成了 Github上最受人瞩目的项目之一，并且很快就有超过300名开发者加入进来贡献了自己的代码。后来 Shay和另一位合伙人成立了公司专注打造Elasticsearch，他们对Elasticsearch进行了一些商业 化的包装和支持。但是，Elasticsearch承诺，永远都将是开源并且免费的。
-Elastic为主体的公司提供了很多优秀的解决方案，拿到很多的投资，现已上市，后来收购 logstash，kibana及一些其他的服务。据国际权威的数据库产品评测机构DBEngines的统计，在2016年1月，Elasticsearch已超过Solr等，成为排名第一的搜索引擎应用。
