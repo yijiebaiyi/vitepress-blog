@@ -12,14 +12,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "about", link: "/about" },
     ],
-    sidebar: [
-      {
-        text: "PHP",
-        items: [
-          { text: "如何从0到1实现一个php框架", link: "/php/build-your-php-framework" },
-          { text: "php中的打印", link: "/php/print-different" },
-        ],
-      },
+    sidebar: [ 
       {
         text: "安全",
         items: [
@@ -29,12 +22,25 @@ export default defineConfig({
         ],
       },
       {
+        text: "PHP",
+        items: [
+          { text: "如何从0到1实现一个php框架", link: "/php/build-your-php-framework" },
+          { text: "php中的打印", link: "/php/print-different" },
+        ],
+      },
+      {
         text: "大前端",
         items: [
           { text: "Vue双向绑定的原理", link: "/web/vue-two-ways-binding" },
           { text: "Micro-app入门指南", link: "/web/micro-app-start" },
         ],
-      }, 
+      },
+      {
+        text: "UE",
+        items: [
+          { text: "UE基础", link: "/ue/ue-start" },
+        ],
+      },
       {
         text: "关于",
         items: [{ text: "关于", link: "/about" }],
