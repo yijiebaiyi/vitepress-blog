@@ -75,7 +75,6 @@ SELECT city, name, age FROM users WHERE city = '北京';
 ### 效果示例
 表结构：
 ```sql
-sql
 CREATE TABLE orders (
 id INT PRIMARY KEY,
 user_id INT,
@@ -102,45 +101,10 @@ AND create_time > '2023-01-01';
 - 减少50-70%的回表操作
 - 特别适用于组合索引的部分列查询
 
-## 四、倒排索引（Inverted Index）
-
-### 核心结构
-| 关键词   | 文档ID列表       | 位置信息         |
-|----------|------------------|------------------|
-| 数据库   | [1,3,5]          | [(1:12),(3:8)...]|
-| 索引     | [2,4,7]          | [(2:5),(4:15)...]|
-
-### 与传统索引对比
-| 特性         | B+Tree索引               | 倒排索引                 |
-|--------------|--------------------------|--------------------------|
-| 存储结构      | 有序树结构               | 关键词-文档映射表        |
-| 查询类型      | 精确/范围查询            | 关键词匹配               |
-| 适用场景      | 结构化数据               | 文本检索                 |
-| 更新代价      | 中等                     | 较高                     |
-
-### MySQL中的实现
-```sql
--- 创建全文索引
-ALTER TABLE articles ADD FULLTEXT INDEX ft_idx (title, content);
-
--- 自然语言模式查询
-SELECT * FROM articles
-WHERE MATCH(title,content) AGAINST('数据库优化');
-
--- 布尔模式查询
-SELECT * FROM articles
-WHERE MATCH(title,content) AGAINST('+MySQL -Oracle' IN BOOLEAN MODE);
-```
-
-### 技术演进
-- 5.6版本：InnoDB支持英文全文索引
-- 5.7.6+：引入ngram分词器支持中文
-- 8.0+：支持JSON数据的全文索引
-
-## 五、综合应用策略
+## 四、综合应用策略
 
 ### 优化组合
-1. **索引覆盖+ICP**：
+**索引覆盖+ICP**：
 ```sql
 CREATE INDEX idx_optimize ON log_table(module, level, create_time);
 
@@ -150,10 +114,6 @@ WHERE module = 'payment'
 AND level > 2
 AND create_time > '2023-06-01';
 ```
-
-2. **倒排索引+缓存**：
-   - 对热词查询结果进行缓存
-   - 使用异步更新机制维护索引
 
 ### 监控工具
 ```sql
@@ -167,5 +127,5 @@ EXPLAIN ANALYZE SELECT ...;
 ### 设计原则
 1. 优先考虑索引覆盖
 2. 合理使用组合索引
-3. 区分OLTP与OLAP场景
+3. 区分OLTP（在线事务处理）和OLAP（在线分析处理）场景
 4. 定期进行索引重组

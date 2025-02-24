@@ -1,4 +1,4 @@
-#  echo、print、print_r、var_dump 的区别
+# PHP中的打印 
 
 ## echo
 `echo` 是一个语言结构，不是函数，因此没有返回值。

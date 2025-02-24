@@ -1,7 +1,12 @@
-import { defineConfig } from "vitepress";
+// import { defineConfig } from "vitepress";
+import { withMermaid }  from "vitepress-plugin-mermaid";
+export default withMermaid({
+  mermaid: {
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+  },
+  mermaidPlugin: {
+    class: "mermaid my-class",
+  },
   cleanUrls: true,
   title: "一介白衣ing",
   description: "everything will be fine",
@@ -40,6 +45,7 @@ export default defineConfig({
         items: [
           { text: "MySQL索引类型全解析", link: "/mysql/index" },
           { text: "数据库索引核心概念解析", link: "/mysql/index-concept" },
+          { text: "MySQL事务机制解析", link: "/mysql/transaction" },
         ],
       },
       {
