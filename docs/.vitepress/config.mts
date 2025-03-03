@@ -47,6 +47,8 @@ export default withMermaid({
           { text: "MySQL索引核心概念", link: "/mysql/index-concept" },
           { text: "MySQL事务机制", link: "/mysql/transaction" },
           { text: "MySQL视图", link: "/mysql/view" },
+          { text: "MySQL用户与权限", link: "/mysql/privileges" },
+          
         ],
       },
       {
