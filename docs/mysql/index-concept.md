@@ -1,4 +1,4 @@
-# 数据库索引核心概念解析
+# MySQL索引核心概念
 
 ## 一、回表查询（Bookmark Lookup）
 
