@@ -48,6 +48,8 @@ export default withMermaid({
           { text: "MySQL事务机制", link: "/mysql/transaction" },
           { text: "MySQL视图", link: "/mysql/view" },
           { text: "MySQL用户与权限", link: "/mysql/privileges" },
+          { text: "MySQL架构", link: "/mysql/structure" },
+          { text: "MySQL主从同步", link: "/mysql/master-slave" },
           
         ],
       },

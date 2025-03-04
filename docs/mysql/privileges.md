@@ -8,10 +8,13 @@
 -- 创建用户（MySQL 8.0+推荐方式）
 CREATE USER 'username'@'host' IDENTIFIED BY 'password';
 
+-- 范围Ip
+CREATE USER 'username'@'192.168.1.%' IDENTIFIED BY 'password';
+
 -- 删除用户
 DROP USER 'username'@'host';
 ```
-
+>注意：创建用户和删除用户不指定Host,则默认为%，表示所有IP都有连接权限。
 ### 1.2 密码管理
 ```sql
 -- 修改用户密码（MySQL 8.0+）
