@@ -17,8 +17,10 @@
 + Nessus
 + OpenVAS
 
+
+---
 ## 二、安全攻防
-### 1、web漏洞
+### 1、web漏洞防护
 
 **暴力破解密码**
 + 强密码
@@ -60,6 +62,7 @@
 + HTTP响应头中设置X-XSS-Protection，启用浏览器内置防护
 + 在Cookie中设置HttpOnly和Secure标志，防止JavaScript脚本获取Cookie信息
 + 内容安全策略（CSP）通过设置HTTP头来限制可以加载的资源类型和来源
+ 
 
 **跨站请求伪造（CSRF）**
 

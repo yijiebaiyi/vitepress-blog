@@ -9,9 +9,9 @@ hero:
   actions:
     - theme: brand
       text: 技术
-      link: /php/build-your-php-framework
+      link: /homepage
     - theme: alt
-      text: 其他
+      text: 关于 
       link: /about
 
 features:
