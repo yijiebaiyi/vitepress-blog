@@ -43,6 +43,7 @@ export default withMermaid({
       {
         text: "MySQL",
         items: [
+          { text: "MySQL安装与配置", link: "/mysql/config" },
           { text: "MySQL索引", link: "/mysql/index" },
           { text: "MySQL索引核心概念", link: "/mysql/index-concept" },
           { text: "MySQL事务机制", link: "/mysql/transaction" },
@@ -50,6 +51,7 @@ export default withMermaid({
           { text: "MySQL用户与权限", link: "/mysql/privileges" },
           { text: "MySQL架构", link: "/mysql/structure" },
           { text: "MySQL主从同步", link: "/mysql/master-slave" },
+          { text: "MySQL慢日志定位", link: "/mysql/slow-query-log" },
           
         ],
       },
