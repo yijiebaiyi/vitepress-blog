@@ -52,7 +52,8 @@ export default withMermaid({
           { text: "MySQL架构", link: "/mysql/structure" },
           { text: "MySQL主从同步", link: "/mysql/master-slave" },
           { text: "MySQL慢日志定位", link: "/mysql/slow-query-log" },
-          
+          { text: "MySQL Binlog日志与数据恢复", link: "/mysql/binlog" },
+          { text: "MySQL性能监控", link: "/mysql/monitor" }, 
         ],
       },
       {
