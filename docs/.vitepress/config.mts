@@ -14,8 +14,8 @@ export default withMermaid({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "about", link: "/about" },
+      // { text: "主页", link: "/homepage" },
+      // { text: "关于", link: "/about" },
     ],
     sidebar: [ 
       {
@@ -24,7 +24,7 @@ export default withMermaid({
         collapsed: true,
         items: [
           { text: "对称加密和非对称加密", link: "/security/encryption" },
-          { text: "OpenSSL核心功能和应用场景", link: "/security/openssl" },
+          { text: "OpenSSL介绍", link: "/security/openssl" },
           { text: "研发安全攻防", link: "/security/attack_and_guard" },
         ],
       },
@@ -52,7 +52,7 @@ export default withMermaid({
         collapsible: true, 
         collapsed: true,
         items: [
-          { text: "如何从0到1实现一个php框架", link: "/php/build-your-php-framework" },
+          { text: "从0到1实现一个php框架", link: "/php/build-framework" },
           { text: "php中的打印", link: "/php/print-different" },
         ],
       },
