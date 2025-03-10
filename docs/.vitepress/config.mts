@@ -85,6 +85,14 @@ export default withMermaid({
         ],
       },
       {
+        text: "Redis",
+        collapsible: true, 
+        collapsed: true,
+        items: [
+          { text: "Redis基本数据类型", link: "/redis/type" },
+        ],
+      },
+      {
         text: "UE",
         collapsible: true, 
         collapsed: true,

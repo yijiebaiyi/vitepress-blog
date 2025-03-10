@@ -229,9 +229,7 @@ WHERE EVENT_NAME LIKE '%innodb%';
 ```
 ---
 
-## 五、参考文章
-[MySQL · 源码分析 · InnoDB LRU List刷脏改进之路](https://www.bookstack.cn/read/aliyun-rds-core/df65d64eb6319091.md)
-
-[MySQL学习之flush(刷脏页)](https://www.modb.pro/db/50669)
-
-[Mysql数据库缓存池Buffer Pool 冷热数据分离](https://www.cnblogs.com/maz9666/p/14447334.html)
+> 参考文章：
+> - [MySQL · 源码分析 · InnoDB LRU List刷脏改进之路](https://www.bookstack.cn/read/aliyun-rds-core/df65d64eb6319091.md)
+> - [MySQL学习之flush(刷脏页)](https://www.modb.pro/db/50669)
+> - [Mysql数据库缓存池Buffer Pool 冷热数据分离](https://www.cnblogs.com/maz9666/p/14447334.html)

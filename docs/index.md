@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "一介白衣ing"
   text: ""
-  tagline: everything is nothing
+  tagline: 写博客的地方。
   actions:
     - theme: brand
       text: 技术
