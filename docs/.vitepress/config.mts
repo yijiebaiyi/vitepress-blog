@@ -35,12 +35,16 @@ export default withMermaid({
         items: [
           {
             text: "排序算法",
+            collapsible: true, 
+            collapsed: true,
             items: [
               { text: "快速排序", link: "/algorithm/sort/quick-sort" },
             ]
           },
           {
             text: "力扣",
+            collapsible: true, 
+            collapsed: true,
             items: [
               { text: "两数之和", link: "/algorithm/leetcode/two-sum" },
             ]
@@ -53,7 +57,23 @@ export default withMermaid({
         collapsed: true,
         items: [
           { text: "从0到1实现一个php框架", link: "/php/build-framework" },
-          { text: "php中的打印", link: "/php/print-different" },
+          // { text: "php中的打印", link: "/php/print-different" },
+        ],
+      },
+      {
+        text: "Golang",
+        collapsible: true, 
+        collapsed: true,
+        items: [
+          { text: "Golang通道", link: "/golang/channel" },
+        ],
+      },
+      {
+        text: "Nodejs",
+        collapsible: true, 
+        collapsed: true,
+        items: [
+          { text: "Nodejs事件循环", link: "/nodejs/eventloop" },
         ],
       },
       {
@@ -93,11 +113,27 @@ export default withMermaid({
         ],
       },
       {
+        text: "RabbitMQ",
+        collapsible: true, 
+        collapsed: true,
+        items: [
+          { text: "RabbitMQ基础", link: "/rabbitmq/start" },
+        ],
+      },
+      {
         text: "UE",
         collapsible: true, 
         collapsed: true,
         items: [
           { text: "UE基础", link: "/ue/start" },
+        ],
+      },
+      {
+        text: "AI",
+        collapsible: true, 
+        collapsed: true,
+        items: [
+          { text: "好用的AI工具汇总", link: "/ai/tools" },
         ],
       },
       {
@@ -115,5 +151,23 @@ export default withMermaid({
         link: "https://juejin.cn/user/4416058258381213"
       },
     ],
+    search: {
+      provider: "local", // 启用本地搜索
+      options: {
+        // 搜索选项（可选）
+        fuzzy: true,      // 模糊匹配
+        prefix: true,     // 前缀匹配
+        boost: { title: 2 }, // 标题权重更高
+        locales: {
+          zh: {
+            translations: {
+              button: { buttonText: "搜索文档" },
+              modal: { noResultsText: "无结果" }
+            }
+          },
+          en: { /* 英文配置 */ }
+        }
+      }
+    }
   },
 });
