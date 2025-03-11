@@ -125,7 +125,8 @@ export default withMermaid({
         collapsible: true, 
         collapsed: true,
         items: [
-          { text: "UE基础", link: "/ue/start" },
+          { text: "UE术语概览", link: "/ue/start" },
+          { text: "UE基础之蓝图", link: "/ue/blueprint" },
         ],
       },
       {
