@@ -129,6 +129,7 @@ export default withMermaid({
           { text: "UE基础之蓝图", link: "/ue/blueprint" },
           { text: "UE静态网格体设置碰撞", link: "/ue/collision" },
           { text: "UE静态网格体合并", link: "/ue/staticMeshMerge" },
+          { text: "UE蓝图案例--开关门", link: "/ue/openDoor" },
         ],
       },
       {
