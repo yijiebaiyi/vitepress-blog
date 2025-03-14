@@ -127,6 +127,8 @@ export default withMermaid({
         items: [
           { text: "UE术语概览", link: "/ue/start" },
           { text: "UE基础之蓝图", link: "/ue/blueprint" },
+          { text: "UE静态网格体设置碰撞", link: "/ue/collision" },
+          { text: "UE静态网格体合并", link: "/ue/staticMeshMerge" },
         ],
       },
       {
