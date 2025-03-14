@@ -14,7 +14,7 @@ SET GLOBAL long_query_time = 2;
 SHOW VARIABLES LIKE 'slow_query_log_file';
 ```
 日志内容示例：
-```log
+```
 Time: 2025-03-06T09:15:00.123456Z
 Query_time: 3.141592 Lock_time: 0.001000 Rows_sent: 10 Rows_examined: 1000000
 SELECT * FROM orders WHERE user_id = 123;

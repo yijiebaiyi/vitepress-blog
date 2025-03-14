@@ -25,7 +25,7 @@ UE提供的API函数如`VInterpTo`（向量插值）、`RInterpTo`（旋转插�
 ## 二、Lerp在材质系统中的应用
 ### 2.1 基础混合与遮罩控制
 通过灰度图（如高度图）作为Alpha通道，实现材质分层混合：
-```unreal
+```
 // 示例：岩石与草地材质混合
 Texture2D RockTexture -> Lerp.A
 Texture2D GrassTexture -> Lerp.B
@@ -49,11 +49,11 @@ HeightMap -> Lerp.Alpha
    - Alpha：连接时间轴输出
 3. 输出到`Set Actor Location`的Z轴。
 
-![门开关蓝图示意图](假设图片链接)
+<!-- ![门开关蓝图示意图](假设图片链接) -->
 
 ### 3.2 天气系统颜色过渡（高级版）
 实现天空颜色从晴天到暴雨的渐变：
-```unreal
+```
 // 节点连接逻辑
 Timeline（0-1线性变化） -> Lerp.Alpha
 ColorA（天蓝色） -> Lerp.A

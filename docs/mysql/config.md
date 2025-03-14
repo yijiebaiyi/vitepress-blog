@@ -116,7 +116,7 @@ expire_logs_days=7
 ```
 
 ### 3.4 引入目录下配置
-```cnf
+```ini
 !includedir /etc/my.cnf.d
 ```
 ---
@@ -166,7 +166,7 @@ sudo systemctl restart mysqld
 mysql -u root -p  # 直接按回车（无需输入密码）
 ```
 (4) 清空root密码
-```mysql
+```bash
 USE mysql;
 UPDATE user SET authentication_string = '' WHERE user = 'root';
 FLUSH PRIVILEGES;
@@ -177,7 +177,7 @@ EXIT;
 删除配置项：my.cnf中的skip-grant-tables
 
 (6) 设置新密码
-```mysql
+```bash
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'YourNewPassword';
 FLUSH PRIVILEGES;
 ```
